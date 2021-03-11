@@ -1,33 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <title>Impekale Open Source</title>
+  <title>Impekable Open Source</title>
   <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,400i,700" rel="stylesheet" />
 </head>
+
 <body class="text-gray-700 bg-white" style="font-family: 'Source Sans Pro', sans-serif">
-  <nav>
-    <div class="container mx-auto px-6 py-2 flex justify-between items-center">
-      <a class="font-bold text-2xl lg:text-4xl" href="#">
-        Impekable
-      </a>
-      <div class="block lg:hidden">
-        <button class="flex items-center px-3 py-2 border rounded text-gray-500 border-gray-600 hover:text-gray-800 hover:border-teal-500 appearance-none focus:outline-none">
-          <svg class="fill-current h-3 w-3" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
-            <title>Menu</title>
-            <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
-          </svg>
-        </button>
+  <!-- Header -->
+  <div>
+    <nav class="bg-gray-800">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="flex items-center justify-between h-16">
+          <div class="flex items-center space-x-2">
+            <div class="flex-shrink-0">
+              <img class="h-8 w-8" src="https://tailwindui.com/img/logos/workflow-mark-indigo-500.svg" alt="Workflow">
+            </div>
+            <div class="text-white">Open Source</div>
+          </div>
+          <div class="ml-10 flex items-baseline space-x-4">
+            <a href="https://github.com/impekable" target="_blank"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Github</a>
+            <a href="https://www.impekable.com/case-studies" target="_blank"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Blog</a>
+            <a href="https://www.impekable.com/career" target="_blank"
+              class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Jobs</a>
+          </div>
+        </div>
       </div>
-      <div class="hidden lg:block">
-        <ul class="inline-flex">
-          <li><a class="px-4 font-bold" href="/">Home</a></li>
-          <li><a class="px-4 hover:text-gray-800" href="#">About</a></li>
-          <li><a class="px-4 hover:text-gray-800" href="#">Contact</a></li>
-        </ul>
+    </nav>
+    <!-- Main -->
+    <div class="relative bg-gray-50 overflow-hidden">
+      <div>
+        <div class="max-w-7xl mx-auto text-center py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
+          <h2 class="text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl">
+            Impekable ❤️ Open Source
+          </h2>
+          <p class="mt-3 max-w-md mx-auto text-base text-gray-500 sm:text-lg md:mt-3 md:text-xl md:max-w-3xl">
+            Impekable relies on open-source software and likes to give back to the community.
+          </p>
+          <div class="mt-8 flex justify-center">
+            <div class="inline-flex rounded-md shadow">
+              <a href="#" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700">
+                Open source
+              </a>
+            </div>
+            <div class="ml-3 inline-flex">
+              <a href="https://www.impekable.com/career" target="_blank" class="inline-flex items-center justify-center px-5 py-3 border border-transparent text-base font-medium rounded-md text-indigo-700 bg-indigo-100 hover:bg-indigo-200">
+                Our Agency
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </nav>
+
+    <ul class="space-y-4 max-w-3xl mx-auto">
+      <li class="bg-white px-4 py-6 shadow sm:p-6 sm:rounded-lg">
+        <article aria-labelledby="question-title-81614">
+          <div>
+            <div class="flex space-x-3">
+              <div class="flex-shrink-0">
+                <img class="h-10 w-10 rounded-full"
+                  src="https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-1.2.1&amp;ixid=eyJhcHBfaWQiOjEyMDd9&amp;auto=format&amp;fit=facearea&amp;facepad=2&amp;w=256&amp;h=256&amp;q=80"
+                  alt="">
+              </div>
+              <div class="min-w-0 flex-1">
+                <p class="text-sm font-medium text-gray-900">
+                  <a href="#" class="hover:underline">Dries Vincent</a>
+                </p>
+                <p class="text-sm text-gray-500">
+                  <a href="#" class="hover:underline">December 9 at 11:43 AM</a>
+                </p>
+              </div>
+              <div class="flex-shrink-0 self-center flex">
+                <div class="relative inline-block text-left">
+                  <div>
+                    <button type="button"
+                      class="-m-2 p-2 rounded-full flex items-center text-gray-400 hover:text-gray-600"
+                      id="options-menu-0" aria-expanded="false" aria-haspopup="true">
+                      <span class="sr-only">Open options</span>
+                      <!-- Heroicon name: solid/dots-vertical -->
+                      <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                        aria-hidden="true">
+                        <path
+                          d="M10 6a2 2 0 110-4 2 2 0 010 4zM10 12a2 2 0 110-4 2 2 0 010 4zM10 18a2 2 0 110-4 2 2 0 010 4z" />
+                      </svg>
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <h2 id="question-title-81614" class="mt-4 text-base font-medium text-gray-900">
+              What would you have done differently if you ran Jurassic Park?
+            </h2>
+          </div>
+          <div class="mt-2 text-sm text-gray-700 space-y-4">
+            <p>
+              Jurassic Park was an incredible idea and a magnificent feat of engineering, but poor protocols and a
+              disregard for human safety killed what could have otherwise been one of the best businesses of our
+              generation.
+            </p>
+            <p>
+              Ultimately, I think that if you wanted to run the park successfully and keep visitors safe, the most
+              important thing to prioritize would be&hellip;
+            </p>
+          </div>
+          <div class="mt-6 flex justify-between space-x-8">
+            <div class="flex space-x-6">
+              <span class="inline-flex items-center text-sm">
+                <button class="inline-flex space-x-2 text-gray-400 hover:text-gray-500">
+                  <!-- Heroicon name: solid/thumb-up -->
+                  <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                      d="M2 10.5a1.5 1.5 0 113 0v6a1.5 1.5 0 01-3 0v-6zM6 10.333v5.43a2 2 0 001.106 1.79l.05.025A4 4 0 008.943 18h5.416a2 2 0 001.962-1.608l1.2-6A2 2 0 0015.56 8H12V4a2 2 0 00-2-2 1 1 0 00-1 1v.667a4 4 0 01-.8 2.4L6.8 7.933a4 4 0 00-.8 2.4z" />
+                  </svg>
+                  <span class="font-medium text-gray-900">29</span>
+                  <span class="sr-only">likes</span>
+                </button>
+              </span>
+              <span class="inline-flex items-center text-sm">
+                <button class="inline-flex space-x-2 text-gray-400 hover:text-gray-500">
+                  <!-- Heroicon name: solid/chat-alt -->
+                  <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true">
+                    <path fill-rule="evenodd"
+                      d="M18 5v8a2 2 0 01-2 2h-5l-5 4v-4H4a2 2 0 01-2-2V5a2 2 0 012-2h12a2 2 0 012 2zM7 8H5v2h2V8zm2 0h2v2H9V8zm6 0h-2v2h2V8z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <span class="font-medium text-gray-900">11</span>
+                  <span class="sr-only">replies</span>
+                </button>
+              </span>
+              <span class="inline-flex items-center text-sm">
+                <button class="inline-flex space-x-2 text-gray-400 hover:text-gray-500">
+                  <!-- Heroicon name: solid/eye -->
+                  <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true">
+                    <path d="M10 12a2 2 0 100-4 2 2 0 000 4z" />
+                    <path fill-rule="evenodd"
+                      d="M.458 10C1.732 5.943 5.522 3 10 3s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7S1.732 14.057.458 10zM14 10a4 4 0 11-8 0 4 4 0 018 0z"
+                      clip-rule="evenodd" />
+                  </svg>
+                  <span class="font-medium text-gray-900">2.7k</span>
+                  <span class="sr-only">views</span>
+                </button>
+              </span>
+            </div>
+            <div class="flex text-sm">
+              <span class="inline-flex items-center text-sm">
+                <button class="inline-flex space-x-2 text-gray-400 hover:text-gray-500">
+                  <!-- Heroicon name: solid/share -->
+                  <svg class="h-5 w-5" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"
+                    aria-hidden="true">
+                    <path
+                      d="M15 8a3 3 0 10-2.977-2.63l-4.94 2.47a3 3 0 100 4.319l4.94 2.47a3 3 0 10.895-1.789l-4.94-2.47a3.027 3.027 0 000-.74l4.94-2.47C13.456 7.68 14.19 8 15 8z" />
+                  </svg>
+                  <span class="font-medium text-gray-900">Share</span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </article>
+      </li>
+    </ul>
+  </div>
 </body>
+
 </html>
